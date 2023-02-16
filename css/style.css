@@ -156,11 +156,6 @@ img {
   height: auto;
 }
 
-.wrapper {
-  /* max-width: 90%;
-  margin: 0 auto; */
-}
-
 .container {
   width: 90%;
   max-width: 1496px;
@@ -182,9 +177,7 @@ header {
 
 .header_wrapper {
   display: flex;
-  flex-wrap: wrap;
-  align-items: center;
-  justify-content: space-around;
+  justify-content: space-between;
   padding-top: 60px;
 }
 
@@ -205,7 +198,7 @@ header {
   color: white;
   text-decoration: none;
   font-family: "Ubuntu";
-  font-size: 20px;
+  font-size: 1.25em;
   font-weight: 400;
   line-height: 23px;
   letter-spacing: 0em;
@@ -235,16 +228,11 @@ header {
   /* position: relative; */
 }
 
-.intro_wrapper {
-  /* max-width: 70%;
-  margin: 0 auto; */
-}
-
 .intro_title {
-  max-width: 870px;
-  max-height: 170px;
+  max-width: 5437%;
+  max-height: 1062%;
   font-family: PT Serif;
-  font-size: 64px;
+  font-size: 4em;
   font-weight: 700;
   line-height: 85px;
   letter-spacing: 0em;
@@ -253,11 +241,11 @@ header {
 }
 
 .intro_subtitles {
-  max-width: 907px;
+  max-width: 5668.5%;
   font-family: "Ubuntu";
-  font-size: 24px;
+  font-size: 1.5em;
   font-weight: 400;
-  line-height: 28px;
+  line-height: 1.5em;
   letter-spacing: 0em;
   text-align: left;
   margin-top: 21px;
@@ -273,8 +261,8 @@ header {
   content: "";
   left: 0;
   top: 15px;
-  width: 57px;
-  height: 3px;
+  width: 5%;
+  height: 3%;
   background-color: #fe4446;
 }
 
@@ -282,14 +270,14 @@ header {
   background: #fe4446;
   border-radius: 5px;
   font-family: "Ubuntu";
-  font-size: 20px;
+  font-size: 1.5em;
   font-weight: 400;
   line-height: 23px;
   letter-spacing: 0em;
   text-align: center;
   padding: 15px, 50px;
   height: 53px;
-  width: 286px;
+  width: 27.900%;
   left: 196px;
   top: 558px;
   border-radius: 5px;
@@ -317,17 +305,11 @@ header {
   margin-bottom: 205px;
 }
 
-.benefits_wrap {
-  /* max-width: 60%; */
-  background-color: #fff;
-  /* margin: 0 auto; */
-}
-
 .benefits_cards {
   display: flex;
   position: absolute;
   top: 130%;
-  width: 1200px;
+  width: 79%;
   right: 10%;
   box-shadow: 0px -1px 11px 5px rgba(0, 0, 0, 0.25);
   background-color: #fff;
@@ -362,7 +344,7 @@ header {
   font-family: "Ubuntu";
   font-size: 14px;
   font-weight: 400;
-  line-height: 16px;
+  line-height: 1em;
   letter-spacing: 0em;
   text-align: center;
   max-width: 284px;
@@ -373,8 +355,7 @@ header {
 
 /* About company style start */
 .about_company-wrapper {
-  /* max-width: 80%;
-  margin: 0 auto; */
+  padding-top: 50px;
 }
 
 .about_company-word {
@@ -412,7 +393,7 @@ header {
   line-height: 18px;
   letter-spacing: 0em;
   text-align: left;
-  width: 590px;
+  width: 49%;
   height: 288px;
 }
 
@@ -475,8 +456,6 @@ header {
 }
 
 .services_wrapper {
-  /* max-width: 90%;
-  margin: 0 auto; */
   padding-top: 50px;
 }
 
@@ -527,8 +506,6 @@ header {
 
 /* Work process style start */
 .work_process_wrapper {
-  /* max-width: 80%;
-  margin: 0 auto; */
   padding-top: 50px;
   padding-bottom: 56px;
 }
@@ -592,24 +569,24 @@ header {
 }
 
 .stages_first {
-  width: 595px;
+  width: 50%;
   padding-right: 28px;
   padding-bottom: 45px;
 }
 
 .stages_second {
-  width: 591px;
+  width: 50%;
   padding-bottom: 45px;
   padding-left: 20px;
 }
 
 .stages_third {
-  width: 595px;
+  width: 50%;
   padding-right: 28px;
 }
 
 .stages_fourth {
-  width: 591px;
+  width: 50%;
   padding-left: 20px;
 }
 
@@ -643,8 +620,6 @@ header {
 }
 
 .cases_wrapper {
-  /* max-width: 80%; */
-  /* margin: 0 auto; */
   padding-top: 50px;
   padding-bottom: 100px;
 }
@@ -815,8 +790,6 @@ header {
 }
 
 .faq_wrapper {
-  /* max-width: 80%;
-  margin: 0 auto; */
   padding-top: 50px;
 }
 
@@ -845,8 +818,6 @@ header {
 /* Contacts style start */
 
 .contacts_wrapper {
-  /* max-width: 80%; */
-  /* margin: 0 auto; */
   padding-top: 50px;
   display: flex;
   justify-content: space-between;
@@ -1004,8 +975,6 @@ header {
 }
 
 .brands_wrapper {
-  /* max-width: 80%; */
-  margin: 0 auto;
   display: flex;
   border-bottom: solid 3px white;
 
@@ -1079,8 +1048,6 @@ header {
 }
 
 .address_wrapper {
-  /* max-width: 95%;
-  margin: 0 auto; */
   padding-top: 47px;
   display: flex;
   justify-content: space-around;
