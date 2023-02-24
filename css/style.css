@@ -120,6 +120,7 @@ section {
 }
 body {
   line-height: 1;
+  overflow-x: hidden;
 }
 ol,
 ul {
@@ -349,7 +350,7 @@ header {
   text-align: center;
   max-width: 284px;
   height: 102px;
-  width: 280px;
+  width: 100%;
 }
 /* Benefits style end */
 
@@ -414,18 +415,19 @@ header {
 
 .square_image {
   position: relative;
+  margin-right: 5px;
 }
 
 .images-text {
   position: absolute;
   top: 25%;
-  right: 15%;
+  right: 5%;
 }
 
 .images-text_last {
   position: absolute;
   top: 25%;
-  right: 25%;
+  right: 20%;
 }
 
 .image_title {
@@ -610,7 +612,7 @@ header {
   line-height: 18px;
   letter-spacing: 0em;
   text-align: left;
-  width: 580px;
+  width: 105%;
 }
 /* Work process style end */
 
@@ -668,7 +670,7 @@ header {
 }
 
 .cases_card {
-  width: 260px;
+  width: 21%;
   height: 400px;
   background-color: white;
   margin-right: 20px;
@@ -718,8 +720,6 @@ header {
 
 /* Reviews style start */
 .reviews {
-  /* max-width: 80%; */
-  margin: 0 auto;
   height: 886px;
 }
 
@@ -841,13 +841,13 @@ header {
   letter-spacing: 0.01em;
   text-align: left;
   padding-bottom: 20px;
-  width: 545px;
+  width: 80%;
 }
 
 .data_inputs {
   display: flex;
   flex-direction: column;
-  width: 328px;
+  width: 100%;
 }
 
 .input_data {
@@ -861,14 +861,14 @@ header {
   line-height: 26px;
   letter-spacing: 0.5px;
   text-align: left;
-  width: 548px;
+  width: 84%;
 }
 
 .download_file {
   display: flex;
   flex-direction: row;
   border: dashed 1px rgba(142, 142, 142, 1);
-  width: 548px;
+  width: 84%;
   height: 104px;
   margin-bottom: 60px;
   justify-content: center;
@@ -877,7 +877,7 @@ header {
 
 .download_file_icon {
   height: 24px;
-  width: 24px;
+  width: 5%;
 }
 
 .download_file_text {
@@ -892,7 +892,7 @@ header {
 }
 
 .send {
-  width: 549px;
+  width: 84%;
   height: 54px;
   background-color: rgba(254, 68, 70, 1);
   color: white;
@@ -998,18 +998,18 @@ header {
 }
 
 .adidas {
-  width: 153px;
+  width: 100%;
   height: 86px;
   margin-bottom: 46px;
 }
 
 .bupa {
-  width: 173px;
+  width: 100%;
   height: 77px;
 }
 
 .nike {
-  width: 175px;
+  width: 40%;
   height: 70px;
 }
 
@@ -1031,7 +1031,7 @@ header {
   letter-spacing: 0.01em;
   text-align: left;
   color: white;
-  width: 239px;
+  width: 50%;
 }
 
 .third_brands {
@@ -1150,4 +1150,238 @@ header {
   .container {
     width: 80%;
   }
+}
+
+@media only screen and (max-width: 1025px) {
+
+  .header_item {
+    margin-right: 18px;
+  }
+
+  .benefits_cards {
+    width: 100%;
+    right: 0%;
+  }
+
+  .first_line {
+    flex-wrap: wrap;
+  }
+
+  .about_company-text {
+    width: 90%;
+  }
+
+  .benefits_card-desc {
+    width: 100%; 
+  }
+
+  .benefits_cards {
+    margin-bottom: 0;
+  }
+
+  .about_company-information {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .about_company-image {
+    margin-bottom: 20px;
+  }
+
+  .cases_card {
+    width: 27%;
+    padding-left: 15px;
+  }
+
+  .contacts_title {
+    line-height: 30px;
+  }
+
+  .hyper_links {
+    margin-right: 0;
+  }
+
+  .all_hyper_links {
+    margin-right: 50px;
+  }
+
+  .images-text {
+    right: 42px;
+  }
+
+  .images-text_last {
+    right: 74px;
+  }
+}
+
+@media only screen and (max-width: 965px) {
+  .menu_info {
+    margin-right: 40px;
+  } 
+}
+
+@media only screen and (max-width: 376px) {
+  .header_list {
+    display: block;
+  }
+
+  .intro_title {
+    text-align: center;
+    line-height: 55px;
+    font-size: 2em;
+    margin-bottom: 20px;
+  }
+
+  .intro_subtitles {
+    padding-bottom: 50px;
+  }
+
+  .intro_subtitles::before {
+    width: 15%;
+  }
+
+  .slides {
+    padding-top: 0;
+  }
+
+  .order_call {
+    margin-left: 110px;
+    font-size: 0.9em;
+  }
+
+  .benefits {
+    margin-bottom: 900px;
+  }
+
+  .benefits_cards {
+    top: 150%;
+    flex-wrap: wrap;
+    height: 915px;
+  }
+
+  .benefits_images {
+    width: 30%;
+  }
+
+  .img {
+    width: 30%;
+  }
+
+  .img2 {
+    width: 30%;
+  }
+
+  .about_company-text {
+    height: 520px;
+  }
+
+  .stages {
+    flex-direction: column;
+  }
+
+  .stage_title {
+    padding-left: 14px;
+  }
+
+  .stage_text {
+    padding-left: 40px;
+    width: 230%;
+  }
+
+  .stages_third {
+    padding-bottom: 45px;
+  }
+
+  .stages_second {
+    padding-left: 0;
+    padding-right: 28px;
+  }
+
+  .stages_fourth {
+    padding-left: 0;
+    padding-right: 28px;
+  }
+
+  .cases_card {
+    width: 71%;
+  }
+
+  .reviews {
+    height: 1045px;
+  }
+
+  .review_people {
+    align-items: center;
+  }
+
+  .contacts_wrapper {
+    flex-direction: column;
+  }
+
+  .download_file {
+    margin-bottom: 30px;
+  }
+
+  .download_file_icon {
+    width: 10%;
+    margin-bottom: 16px;
+  }
+
+  .download_file_text {
+    padding-left: 10px;
+  }
+
+  .number_call {
+    margin-right: 35px;
+  }
+
+  .contact_us {
+    padding-bottom: 15px;
+  }
+
+  .map {
+    height: 365px;
+    margin-bottom: 50px;
+  }
+
+  .second_text {
+    font-size: 20px;
+  }
+
+  .first_brands {
+    margin-right: 5px;
+  }
+
+  .third_brands {
+    padding-left: 5px;
+  }
+  
+  .brands_wrapper > div {
+    width: 100%;
+  }
+
+  .address_wrapper {
+    flex-wrap: wrap;
+  }
+
+  .menu_info {
+    margin-right: 25px;
+  }
+
+  .menu_p {
+    text-align: center;
+  }
+
+  .all_hyper_links {
+    height: 180px;
+  }
+
+  .contact_menu_text {
+    text-align: center;
+  }
+
+  .too_sirius {
+    margin-bottom: 30px;
+  }
+
 }
