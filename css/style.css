@@ -670,12 +670,16 @@ header {
 }
 
 .cases_card {
-  width: 21%;
+  width: 265px;
   height: 400px;
   background-color: white;
   margin-right: 20px;
   border-radius: 20px;
   padding: 20px 20px 15px 20px;
+}
+
+.cases-container {
+  max-width: 250px;
 }
 
 .card_title {
@@ -715,6 +719,7 @@ header {
   line-height: 18px;
   letter-spacing: 0em;
   text-align: left;
+  width: 200px;
 }
 /* Cases style end */
 
