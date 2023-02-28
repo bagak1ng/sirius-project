@@ -1,6 +1,6 @@
 var swiper = new Swiper(".cases-container", {
-    slidesPerView: 1,
-    spaceBetween: 25,
+    slidesPerView: 4,
+    spaceBetween: 40,
     loop: true,
     centerSlide: 'true',
     fade: 'true',
@@ -14,4 +14,19 @@ var swiper = new Swiper(".cases-container", {
       nextEl: ".swiper-button-next",
       prevEl: ".swiper-button-prev",
     },
+
+    breakpoints: {
+      0: {
+        slidesPerView: 1
+      },
+      520: {
+        slidesPerView: 2,
+      },
+      995: {
+        slidesPerView: 3
+      },
+      1025: {
+        slidesPerView: 4
+      }
+    }
   });
