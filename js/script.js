@@ -19,13 +19,13 @@ var swiper = new Swiper(".cases-container", {
       0: {
         slidesPerView: 1
       },
-      520: {
+      585: {
         slidesPerView: 2,
       },
       995: {
         slidesPerView: 3
       },
-      1025: {
+      1200: {
         slidesPerView: 4
       }
     }
