@@ -1395,6 +1395,10 @@ header {
     margin-top: 70px;
   }
 
+  .intro_title {
+    text-align: center;
+  }
+
   .order_call {
     font-size: 1em;
     width: 50%;
