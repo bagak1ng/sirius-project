@@ -724,7 +724,7 @@ header {
   line-height: 18px;
   letter-spacing: 0em;
   text-align: left;
-  width: 200px;
+  /* width: 200px; */
 }
 /* Cases style end */
 
@@ -927,7 +927,20 @@ header {
   padding-bottom: 50px;
   display: flex;
   flex-direction: row;
-  justify-content: center;
+  justify-content: space-evenly;
+  width: 84%;
+}
+
+.text_number {
+  width: 100%;
+}
+
+.mail_and_text {
+  width: 100%;
+}
+
+.email_us {
+  display: flex;
 }
 
 .call {
@@ -935,7 +948,8 @@ header {
 }
 
 .number_call {
-  margin-right: 61px;
+  /* margin-right: 61px; */
+  display: flex;
 }
 
 .phone_text {
@@ -1375,6 +1389,162 @@ header {
   }
 }
 
+@media only screen and (max-width: 427px) {
+  .benefits_cards {
+    height: 1100px;
+    margin-top: 70px;
+  }
+
+  .order_call {
+    font-size: 1em;
+    width: 50%;
+    transform: translateX(50%);
+  }
+
+  .cases-container {
+    /* max-width: 300px; */
+  }
+
+  .contacts_title {
+    display: flex;
+    justify-content: center;
+  }
+
+  .contacts_text {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    width: 100%;
+  }
+
+  .data_inputs {
+    display: flex;
+    justify-content: center;
+  }
+
+  .input_data {
+    width: 100%;
+  }
+
+  .download_file {
+    width: 100%;
+  }
+
+  .faq {
+    margin-top: 70px;
+  }
+
+  .second_text {
+    font-size: 25px;
+  }
+
+  .send {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    text-align: center;
+    align-items: center;
+  }
+
+  .brands_wrapper {
+    flex-wrap: wrap;
+    justify-content: center;
+    border-bottom: 0;
+    flex-direction: column;
+    transform: translateX(150px);
+  }
+
+  .second_brands {
+    /* transform: translateX(100px); */
+  }
+
+  .first_brands {
+    margin-right: 0;
+  }
+
+  .second_brands {
+    border-left: 0;
+    margin-right: 0;
+  }
+
+  .third_brands {
+    border-left: 0;
+    padding: 0;
+  }
+
+  .address_wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    margin-right: 0;
+    align-items: center;
+  }
+
+  .menu_info {
+    margin-right: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .all_hyper_links {
+    margin-right: 0;
+    height: 300px;
+    align-items: center;
+  }
+
+  .contact_menu {
+    align-items: center;
+  }
+
+  .about_company-text {
+    margin-bottom: 200px;
+  }
+
+  .intro {
+    height: 160vh;
+  }
+
+  .contact_us {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .benefits_card {
+    height: 100px;
+  }
+}
+
+@media only screen and (min-width: 992px) {
+  .square_image {
+    width: 23%;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .square_image {
+    width: 48%;
+    margin-bottom: 20px;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .about_company-information {
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+  }
+  .about_company-image {
+    width: 100%;
+  }
+  .square_image {
+    width: 100%;
+  }
+}
+
 @media only screen and (max-width: 376px) {
   .header_list {
     display: block;
@@ -1400,7 +1570,7 @@ header {
   }
 
   .order_call {
-    margin-left: 110px;
+    /* margin-left: 110px; */
     font-size: 0.9em;
   }
 
@@ -1499,8 +1669,13 @@ header {
     margin-bottom: 50px;
   }
 
+  .brands_wrapper {
+    transform: translateX(0);
+  }
+
   .second_text {
     font-size: 20px;
+    transform: translateX(125px);
   }
 
   .first_brands {
@@ -1520,7 +1695,7 @@ header {
   }
 
   .menu_info {
-    margin-right: 25px;
+    /* margin-right: 25px; */
   }
 
   .menu_p {
@@ -1528,7 +1703,7 @@ header {
   }
 
   .all_hyper_links {
-    height: 180px;
+    height: 300px;
   }
 
   .contact_menu_text {
@@ -1537,153 +1712,6 @@ header {
 
   .too_sirius {
     margin-bottom: 30px;
-  }
-}
-
-
-@media only screen and (max-width: 427px) {
-  .benefits_cards {
-    height: 1100px;
-    margin-top: 70px;
-  }
-
-  .order_call {
-    font-size: 1em;
-    width: 50%;
-    transform: translateX(50%);
-  }
-
-  .cases-container {
-    max-width: 300px;
-    transform: translateX(50px);
-  }
-
-  .contacts_title {
-    display: flex;
-    justify-content: center;
-  }
-
-  .contacts_text {
-    display: flex;
-    justify-content: center;
-    text-align: center;
-    width: 100%;
-  }
-
-  .data_inputs {
-    display: flex;
-    justify-content: center;
-  }
-
-  .input_data {
-    width: 100%;
-  }
-
-  .download_file {
-    width: 100%;
-  }
-
-  .faq {
-    margin-top: 70px;
-  }
-
-  .second_text {
-    font-size: 25px;
-  }
-
-  .send {
-    display: flex;
-    justify-content: center;
-    width: 100%;
-    text-align: center;
-    align-items: center;
-  }
-
-  .brands_wrapper {
-    flex-wrap: wrap;
-    justify-content: center;
-    border-bottom: 0;
-    flex-direction: column;
-    transform: translateX(150px);
-  }
-
-  .first_brands {
-    margin-right: 0;
-  }
-
-  .second_brands {
-    border-left: 0;
-    margin-right: 0;
-  }
-
-  .third_brands {
-    border-left: 0;
-    padding: 0;
-  }
-
-  .address_wrapper {
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: column;
-    justify-content: center;
-    margin-right: 0;
-    align-items: center;
-  }
-
-  .menu_info {
-    margin-right: 0;
-    display: flex;
-    flex-direction: column;
-  }
-
-  .all_hyper_links {
-    margin-right: 0;
-    height: 300px;
-  }
-
-  .about_company-text {
-    margin-bottom: 200px;
-  }
-
-  .intro {
-    height: 160vh;
-  }
-
-  .contact_us {
-    display: flex;
-    justify-content: center;
-  }
-}
-
-@media only screen and (min-width: 768px) {
-  .benefits_card {
-    height: 100px;
-  }
-}
-
-@media only screen and (min-width: 992px) {
-  .square_image {
-    width: 23%;
-  }
-}
-@media only screen and (max-width: 768px) {
-  .square_image {
-    width: 48%;
-    margin-bottom: 20px;
-  }
-}
-
-@media only screen and (max-width: 600px) {
-  .about_company-information {
-    justify-content: center;
-    flex-direction: row;
-    align-items: center;
-  }
-  .about_company-image {
-    width: 100%;
-  }
-  .square_image {
-    width: 100%;
   }
 }
 
@@ -1699,6 +1727,8 @@ header {
   .contact_us {
     flex-wrap: wrap;
     flex-direction: column;
+    align-items: center;
+    height: 185px;
   }
 
   .brands_wrapper {
@@ -1706,12 +1736,20 @@ header {
   }
 
   .second_text {
-    transform: translateX(85px);
+    transform: translateX(110px);
   }
 
   .number_call {
     flex-direction: row;
     margin-right: 0;
-    
+  }
+
+  .all_hyper_links {
+    align-items: center;
+    height: 300px;
+  }
+
+  .contact_menu {
+    align-items: center;
   }
 }
