@@ -19,24 +19,23 @@
     <header class="header">
       <div class="header_wrapper">
         <nav class="navbar navbar-expand-lg text-white navbar-dark">
-          <div class="container ">
+          <div class="container">
             <div class="navbar-brand header_logo">
               <img src="image/sirius-logo.svg" alt="sirius-logo" />
             </div>
-              <button
-                class="navbar-toggler"
-                type="button"
-                data-toggle="collapse"
-                data-target="#navbarContent"
-                aria-controls="navbarContent"
-                aria-expanded="false"
-              >
-                <span class="navbar-toggler-icon"></span>
-              </button>
-              <div class="collapse navbar-collapse" id="navbarContent">
-                <ul
-                class="navbar-nav ml-auto"
-              >
+            <div class="btn-up btn-up_hide"></div>
+            <button
+              class="navbar-toggler"
+              type="button"
+              data-toggle="collapse"
+              data-target="#navbarContent"
+              aria-controls="navbarContent"
+              aria-expanded="false"
+            >
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarContent">
+              <ul class="navbar-nav ml-auto">
                 <li class="header_item nav-item">
                   <a href="#services" class="header_link nav-link">Услуги</a>
                 </li>
@@ -44,7 +43,9 @@
                   <a href="#cases" class="header_link nav-link">Кейсы</a>
                 </li>
                 <li class="header_item nav-item">
-                  <a href="#about_company" class="header_link nav-link">О компании</a>
+                  <a href="#about_company" class="header_link nav-link"
+                    >О компании</a
+                  >
                 </li>
                 <li class="header_item nav-item">
                   <a href="#faq" class="header_link nav-link">FAQ</a>
@@ -60,7 +61,7 @@
                   <!-- <img src="./image/Vector.svg" alt="vector" class="vector" /> -->
                 </li>
               </ul>
-              </div>
+            </div>
           </div>
         </nav>
       </div>
@@ -582,29 +583,33 @@
               <input type="tel" placeholder="Ваш телефон" class="input_data" />
               <input type="email" placeholder="Ваша почта" class="input_data" />
               <input type="text" placeholder="Комментарии" class="input_data" />
+              <div class="download_file">
+                <img
+                  src="image/download_iconoc.svg"
+                  alt="download_iconoc"
+                  class="download_file_icon"
+                />
+                <p class="download_file_text">Загрузите файл</p>
+              </div>
+              <button class="send">Отправить</button>
             </form>
-            <div class="download_file">
-              <img
-                src="image/download_iconoc.svg"
-                alt="download_iconoc"
-                class="download_file_icon"
-              />
-              <p class="download_file_text">Загрузите файл</p>
-            </div>
-            <button class="send">Отправить</button>
             <div class="contact_us">
               <div class="number_call">
                 <img src="image/call.svg" alt="call" class="call" />
                 <div class="text_number">
                   <p class="phone_text">Телефон</p>
-                  <a href="tel:+7(708)123 45 67" class="phone_number">+7(708)123 45 67</a>
+                  <a href="tel:+7(708)123 45 67" class="phone_number"
+                    >+7(708)123 45 67</a
+                  >
                 </div>
               </div>
               <div class="email_us">
                 <img src="image/email.svg" alt="email" class="email" />
                 <div class="mail_and_text">
                   <p class="email_text">E-mail</p>
-                  <a href="mailto:info@company.com" class="e-mail">info@company.com</a>
+                  <a href="mailto:info@company.com" class="e-mail"
+                    >info@company.com</a
+                  >
                 </div>
               </div>
             </div>
@@ -662,8 +667,12 @@
           </div>
           <div class="contact_menu">
             <p class="contact_menu_text">Контакты</p>
-            <a href="tel:+7(708)123 45 67" class="hyper_links">+7(708)123 45 67</a>
-            <a href="mailto:info@company.com" class="hyper_links">info@company.com</a>
+            <a href="tel:+7(708)123 45 67" class="hyper_links"
+              >+7(708)123 45 67</a
+            >
+            <a href="mailto:info@company.com" class="hyper_links"
+              >info@company.com</a
+            >
             <p class="address_info">Кабанбай батыра 279</p>
           </div>
         </div>
