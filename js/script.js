@@ -62,3 +62,10 @@ const btnUp = {
 }
 
 btnUp.addEventListener();
+
+const upload = document.querySelector(".download_file");
+fileInput = upload.querySelector(".file_input");
+
+upload.addEventListener("click", () => {
+  fileInput.click();
+})

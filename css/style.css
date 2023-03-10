@@ -243,6 +243,22 @@ header {
   letter-spacing: 0em;
   text-align: left;
   color: white;
+  animation: reveal 3000ms ease-in-out forwards 200ms,
+    glow 2500ms linear infinite 2000ms;
+}
+
+@keyframes reveal {
+  80% {
+    letter-spacing: 8px;
+  }
+  100% {
+    background-size: 300% 300%;
+  }
+}
+@keyframes glow {
+  40% {
+    text-shadow: 0 0 8px #fff;
+  }
 }
 
 .intro_subtitles {
@@ -288,10 +304,15 @@ header {
   border-radius: 5px;
   color: white;
   cursor: pointer;
+  transition: 0.5s;
 }
 
 .order_call:active {
   opacity: 0.75;
+}
+
+.order_call:hover {
+  transform: scale(1.2);
 }
 
 .slides {
@@ -323,6 +344,7 @@ header {
 
 .benefits_card {
   margin-right: 20px;
+  padding-left: 10px;
 }
 
 .benefits_card:last-child {
@@ -379,6 +401,22 @@ header {
   text-align: left;
   color: rgba(0, 0, 0, 1);
   padding-top: 25px;
+  animation: reveal 3000ms ease-in-out forwards 200ms,
+    glow 2500ms linear infinite 2000ms;
+}
+
+@keyframes reveal {
+  80% {
+    letter-spacing: 8px;
+  }
+  100% {
+    background-size: 300% 300%;
+  }
+}
+@keyframes glow {
+  40% {
+    text-shadow: 0 0 8px #fff;
+  }
 }
 
 .first_line {
@@ -418,6 +456,11 @@ header {
 
 .square_image {
   position: relative;
+  transition: 0.5s;
+}
+
+.square_image:hover {
+  transform: scale(0.8);
 }
 
 .images-text {
@@ -478,6 +521,22 @@ header {
   text-align: left;
   color: white;
   padding-bottom: 50px;
+  animation: reveal 3000ms ease-in-out forwards 200ms,
+    glow 2500ms linear infinite 2000ms;
+}
+
+@keyframes reveal {
+  80% {
+    letter-spacing: 8px;
+  }
+  100% {
+    background-size: 300% 300%;
+  }
+}
+@keyframes glow {
+  40% {
+    text-shadow: 0 0 8px #fff;
+  }
 }
 
 .serives_type {
@@ -500,6 +559,14 @@ header {
   text-align: left;
   padding-top: 50px;
   color: white;
+}
+
+.empty_picture {
+  transition: 0.5s;
+}
+
+.empty_picture:hover {
+  transform: scale(0.7);
 }
 /* Services style end */
 
@@ -647,6 +714,22 @@ header {
   text-align: left;
   color: white;
   padding-bottom: 25px;
+  animation: reveal 3000ms ease-in-out forwards 200ms,
+    glow 2500ms linear infinite 2000ms;
+}
+
+@keyframes reveal {
+  80% {
+    letter-spacing: 8px;
+  }
+  100% {
+    background-size: 300% 300%;
+  }
+}
+@keyframes glow {
+  40% {
+    text-shadow: 0 0 8px #fff;
+  }
 }
 
 .cases_text {
@@ -822,6 +905,22 @@ header {
   letter-spacing: 0em;
   text-align: left;
   color: white;
+  animation: reveal 3000ms ease-in-out forwards 200ms,
+    glow 2500ms linear infinite 2000ms;
+}
+
+@keyframes reveal {
+  80% {
+    letter-spacing: 8px;
+  }
+  100% {
+    background-size: 300% 300%;
+  }
+}
+@keyframes glow {
+  40% {
+    text-shadow: 0 0 8px #fff;
+  }
 }
 /* FAQ style end */
 
@@ -883,6 +982,7 @@ header {
   margin-bottom: 60px;
   justify-content: center;
   align-items: center;
+  cursor: pointer;
 }
 
 .download_file_icon {
@@ -916,10 +1016,15 @@ header {
   border: 0;
   border-radius: 10px;
   cursor: pointer;
+  transition: 0.5s;
 }
 
 .send:active {
   opacity: 0.75;
+}
+
+.send:hover {
+  transform: scale(1.2);
 }
 
 .contact_us {
