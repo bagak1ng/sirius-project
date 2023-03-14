@@ -1802,7 +1802,7 @@ header {
   }
 
   .contacts_wrapper {
-    flex-direction: column;
+    justify-content: center;
   }
 
   .download_file {
@@ -1842,6 +1842,7 @@ header {
 
   .first_brands {
     margin-right: 5px;
+    padding-top: 20px;
   }
 
   .third_brands {
