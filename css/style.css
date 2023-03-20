@@ -188,6 +188,10 @@ header {
 
 .header_item {
   margin-right: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
 }
 
 .header_item:last-child {
@@ -203,6 +207,8 @@ header {
   line-height: 23px;
   letter-spacing: 0em;
   text-align: left;
+  transition: color 0.3s linear;
+  margin-bottom: 10px;
 }
 
 .vector {
@@ -213,6 +219,8 @@ header {
 .header_link:active,
 .header_link:focus {
   opacity: 0.75;
+  color: #fe4446;
+  text-decoration: none;
 }
 
 .navbar-default {
@@ -243,18 +251,9 @@ header {
   letter-spacing: 0em;
   text-align: left;
   color: white;
-  animation: reveal 3000ms ease-in-out forwards 200ms,
-    glow 2500ms linear infinite 2000ms;
+  animation: glow 2500ms linear infinite 2000ms;
 }
 
-@keyframes reveal {
-  80% {
-    letter-spacing: 8px;
-  }
-  100% {
-    background-size: 300% 300%;
-  }
-}
 @keyframes glow {
   40% {
     text-shadow: 0 0 8px #fff;
@@ -521,18 +520,15 @@ header {
   text-align: left;
   color: white;
   padding-bottom: 50px;
-  animation: reveal 3000ms ease-in-out forwards 200ms,
-    glow 2500ms linear infinite 2000ms;
+  animation: glow 2500ms linear infinite 2000ms;
 }
 
-@keyframes reveal {
-  80% {
-    letter-spacing: 8px;
-  }
-  100% {
-    background-size: 300% 300%;
-  }
+.service_image{
+  display: flex;
+  justify-content: space-around;
+
 }
+
 @keyframes glow {
   40% {
     text-shadow: 0 0 8px #fff;
@@ -563,10 +559,13 @@ header {
 
 .empty_picture {
   transition: 0.5s;
+  width: 387px;
+  height: 285px;
+  border-radius: 10px;
 }
 
 .empty_picture:hover {
-  transform: scale(0.7);
+  transform: scale(1.1);
 }
 /* Services style end */
 
@@ -714,18 +713,9 @@ header {
   text-align: left;
   color: white;
   padding-bottom: 25px;
-  animation: reveal 3000ms ease-in-out forwards 200ms,
-    glow 2500ms linear infinite 2000ms;
+  animation: glow 2500ms linear infinite 2000ms;
 }
 
-@keyframes reveal {
-  80% {
-    letter-spacing: 8px;
-  }
-  100% {
-    background-size: 300% 300%;
-  }
-}
 @keyframes glow {
   40% {
     text-shadow: 0 0 8px #fff;
@@ -971,6 +961,7 @@ header {
   letter-spacing: 0.5px;
   text-align: left;
   width: 84%;
+  outline: 0;
 }
 
 .download_file {
@@ -1020,11 +1011,11 @@ header {
 }
 
 .send:active {
-  opacity: 0.75;
+  transform: scale(0.75);
 }
 
 .send:hover {
-  transform: scale(1.2);
+  transform: scale(0.9);
 }
 
 .contact_us {
@@ -1203,7 +1194,7 @@ header {
   padding-bottom: 31px;
 }
 
-.hyper_links {
+.footer_links {
   color: white;
   text-decoration: none;
   font-family: "Ubuntu";
@@ -1214,16 +1205,16 @@ header {
   text-align: left;
   padding-bottom: 41px;
   margin-right: 90px;
+  transition: color 0.3s linear;
 }
 
-.hyper_links:nth-child(n + 3) {
-  margin-right: 0;
-}
 
-.hyper_links:active,
-.hyper_links:hover,
-.hyper_links:focus {
+.footer_links:active,
+.footer_links:hover,
+.footer_links:focus {
   opacity: 0.75;
+  color: #fe4446;
+  text-decoration: none;
 }
 
 .menu_p {
@@ -1380,7 +1371,7 @@ header {
     line-height: 30px;
   }
 
-  .hyper_links {
+  .footer_links {
     margin-right: 0;
   }
 
@@ -1908,7 +1899,8 @@ header {
   }
 
   .all_hyper_links {
-    align-items: center;
+    display: flex;
+    justify-content: flex-start;
     height: 300px;
   }
 
