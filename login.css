@@ -126,3 +126,11 @@ body{
     margin-top: 27px;
     font-size: 32px;
 }
+
+.register{
+    transition: color 0.3s linear;
+}
+
+.register:hover{
+    color:white;
+}
