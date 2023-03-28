@@ -400,22 +400,6 @@ header {
   text-align: left;
   color: rgba(0, 0, 0, 1);
   padding-top: 25px;
-  animation: reveal 3000ms ease-in-out forwards 200ms,
-    glow 2500ms linear infinite 2000ms;
-}
-
-@keyframes reveal {
-  80% {
-    letter-spacing: 8px;
-  }
-  100% {
-    background-size: 300% 300%;
-  }
-}
-@keyframes glow {
-  40% {
-    text-shadow: 0 0 8px #fff;
-  }
 }
 
 .first_line {
@@ -434,6 +418,11 @@ header {
   text-align: left;
   width: 49%;
   height: 288px;
+}
+
+.company-image{
+  width: 590px;
+  height: 314px;
 }
 
 .square_informations {
@@ -895,18 +884,9 @@ header {
   letter-spacing: 0em;
   text-align: left;
   color: white;
-  animation: reveal 3000ms ease-in-out forwards 200ms,
-    glow 2500ms linear infinite 2000ms;
+  animation: glow 2500ms linear infinite 2000ms;
 }
 
-@keyframes reveal {
-  80% {
-    letter-spacing: 8px;
-  }
-  100% {
-    background-size: 300% 300%;
-  }
-}
 @keyframes glow {
   40% {
     text-shadow: 0 0 8px #fff;
@@ -1176,7 +1156,7 @@ header {
 .address_wrapper {
   padding-top: 47px;
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
 }
 
 .too_sirius {
@@ -1191,19 +1171,19 @@ header {
 }
 
 .menu_p {
-  padding-bottom: 31px;
+  padding-bottom: 11px;
 }
 
 .footer_links {
   color: white;
   text-decoration: none;
   font-family: "Ubuntu";
-  font-size: 16px;
-  font-weight: 700;
+  font-size: 14px;
+  font-weight: 400;
   line-height: 18px;
   letter-spacing: 0px;
   text-align: left;
-  padding-bottom: 41px;
+  padding-bottom: 20px;
   margin-right: 90px;
   transition: color 0.3s linear;
 }
